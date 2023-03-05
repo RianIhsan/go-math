@@ -14,6 +14,6 @@ func Pengurangan(x, y int) {
 }
 func Perkalian(x, y int) {
 	var res int
-	res = x - y
-	fmt.Println("Masil Dari Perkalian ", x, " * ", y, " = ", res)
+	res = x * y
+	fmt.Println("Masil Dari Perkalian ", x, " x ", y, " = ", res)
 }
